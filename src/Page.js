@@ -61,35 +61,81 @@ function Page() {
             <div className="col-md-8">
               <Bounce bottom>
                 <div className="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-                  <div className="col p-4 d-flex flex-column position-static">
-                    <h3 className="mb-0 text-success text1">Co-Ordinators</h3>
-
-                    <p className="mb-auto">
-                      <ul className="text">
-                        <li>
-                          <strong>President: </strong> Dr. Satyendra K. Rajput,
-                          DoPS
-                        </li>
-                        <li>
-                          <strong>Vice President:</strong> Sh. O.P. Singh,
-                          Deputy Director MSME
-                        </li>
-                        <li>
-                          <strong>Convenor:</strong> Dr. Mayank Aggarwal, CSE
-                        </li>
-                        <li>
-                          <strong>President: </strong> Dr. Satyendra K. Rajput,
-                          DoPS
-                        </li>
-                        <li>
-                          <strong>Vice President:</strong> Sh. O.P. Singh,
-                          Deputy Director MSME
-                        </li>
-                        <li>
-                          <strong>Convenor:</strong> Dr. Mayank Aggarwal, CSE
-                        </li>
-                      </ul>
-                    </p>
+                  <div className="col">
+                    <div classname="card" style={{ height: "100%" }}>
+                      <h3 className="mb-0 text-success  extra-margin">
+                        Co-ordinators
+                      </h3>
+                      <table className="table  table-striped table-bordered m-0  ">
+                        <thead className="table-light fs-4 fw-bold py-5"></thead>
+                        <tbody>
+                          <tr>
+                            <td className="coordinator-type">
+                              <strong>NISP Co-ordinator</strong>
+                            </td>
+                            <td className="coordinator-name">
+                              Dr. Vipul Sharma, ECE
+                            </td>
+                          </tr>
+                          <tr>
+                            <td className="coordinator-type">
+                              <strong>NIRF Co-ordinator</strong>
+                            </td>
+                            <td className="coordinator-name">
+                              Dr. Vipin Sharma, DoPS
+                            </td>
+                          </tr>
+                          <tr>
+                            <td className="coordinator-type">
+                              <strong>ARIIA Co-ordinator</strong>
+                            </td>
+                            <td className="coordinator-name">
+                              Dr. Nishant Kumar, CSE
+                            </td>
+                          </tr>
+                          <tr>
+                            <td className="coordinator-type">
+                              <strong>IPR</strong>
+                            </td>
+                            <td className="coordinator-name">
+                              Dr. Kapil Goel, DoPS
+                            </td>
+                          </tr>
+                          <tr>
+                            <td className="coordinator-type">
+                              <strong>Internship</strong>
+                            </td>
+                            <td className="coordinator-name">
+                              Dr. Ravindra Kumar, Chemistry
+                            </td>
+                          </tr>
+                          <tr>
+                            <td className="coordinator-type">
+                              <strong>StartUP</strong>
+                            </td>
+                            <td className="coordinator-name">
+                              Mr. Ashish Nainwal, ECE
+                            </td>
+                          </tr>
+                          <tr>
+                            <td className="coordinator-type">
+                              <strong>Innovation</strong>
+                            </td>
+                            <td className="coordinator-name">
+                              Dr. Nitin Bhardwaj, Zoology &amp; Environment
+                            </td>
+                          </tr>
+                          <tr>
+                            <td className="coordinator-type">
+                              <strong>Social Activity</strong>
+                            </td>
+                            <td className="coordinator-name">
+                              Dr. Krishna Kumar, MCA
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
                   </div>
 
                   <div className="col-auto d-none d-lg-block"></div>
@@ -103,34 +149,38 @@ function Page() {
                     </h3>
 
                     <p className="mb-auto d-flex flex-row">
-                      <ul className="text">
-                        <li>Prof. Vivek Kumar, MCA</li>
-                        <li>Prof. Vivek Kumar, MCA</li>
-                        <li>Prof. Vivek Kumar, MCA</li>
-                        <li>Prof. Vivek Kumar, MCA</li>
-                        <li>Prof. Vivek Kumar, MCA</li>
-                        <li>Prof. Vivek Kumar, MCA</li>
-                        <li>Prof. Vivek Kumar, MCA</li>
-                        <li>Prof. Vivek Kumar, MCA</li>
-                        <li>Prof. Vivek Kumar, MCA</li>
-                        <li>Prof. Vivek Kumar, MCA</li>
-                        <li>Prof. Vivek Kumar, MCA</li>
-                        <li>Prof. Vivek Kumar, MCA</li>
-                      </ul>
-                      <ul className="text Teacher-ul">
-                        <li>Prof. Vivek Kumar, MCA</li>
-                        <li>Prof. Vivek Kumar, MCA</li>
-                        <li>Prof. Vivek Kumar, MCA</li>
-                        <li>Prof. Vivek Kumar, MCA</li>
-                        <li>Prof. Vivek Kumar, MCA</li>
-                        <li>Prof. Vivek Kumar, MCA</li>
-                        <li>Prof. Vivek Kumar, MCA</li>
-                        <li>Prof. Vivek Kumar, MCA</li>
-                        <li>Prof. Vivek Kumar, MCA</li>
-                        <li>Prof. Vivek Kumar, MCA</li>
-                        <li>Prof. Vivek Kumar, MCA</li>
-                        <li>Prof. Vivek Kumar, MCA</li>
-                      </ul>
+                      <div className="container">
+                        <ul className="text pextra">
+                          <li>Prof. Vivek Kumar, MCA</li>
+                          <li>Prof. Vivek Kumar, MCA</li>
+                          <li>Prof. Vivek Kumar, MCA</li>
+                          <li>Prof. Vivek Kumar, MCA</li>
+                          <li>Prof. Vivek Kumar, MCA</li>
+                          <li>Prof. Vivek Kumar, MCA</li>
+                          <li>Prof. Vivek Kumar, MCA</li>
+                          <li>Prof. Vivek Kumar, MCA</li>
+                          <li>Prof. Vivek Kumar, MCA</li>
+                          <li>Prof. Vivek Kumar, MCA</li>
+                          <li>Prof. Vivek Kumar, MCA</li>
+                          <li>Prof. Vivek Kumar, MCA</li>
+                        </ul>
+                      </div>
+                      <div className="container">
+                        <ul className="text  Teacher-ul d-flex flex-column ">
+                          <li>Prof. Vivek Kumar, MCA</li>
+                          <li>Prof. Vivek Kumar, MCA</li>
+                          <li>Prof. Vivek Kumar, MCA</li>
+                          <li>Prof. Vivek Kumar, MCA</li>
+                          <li>Prof. Vivek Kumar, MCA</li>
+                          <li>Prof. Vivek Kumar, MCA</li>
+                          <li>Prof. Vivek Kumar, MCA</li>
+                          <li>Prof. Vivek Kumar, MCA</li>
+                          <li>Prof. Vivek Kumar, MCA</li>
+                          <li>Prof. Vivek Kumar, MCA</li>
+                          <li>Prof. Vivek Kumar, MCA</li>
+                          <li>Prof. Vivek Kumar, MCA</li>
+                        </ul>
+                      </div>
                     </p>
                   </div>
 
@@ -161,26 +211,30 @@ function Page() {
                     <h3 className="mb-0 text-warning text1">Student Members</h3>
 
                     <p className="mb-auto d-flex flex-row">
-                      <ul className="text">
-                        <li>Mr.Harsh Walia</li>
-                        <li>Mr. Chirag Patel</li>
-                        <li>Mr.Harsh Walia</li>
-                        <li>Mr. Chirag Patel</li>
-                        <li>Mr.Harsh Walia</li>
-                        <li>Mr. Chirag Patel</li>
-                        <li>Mr.Harsh Walia</li>
-                        <li>Mr. Chirag Patel</li>
-                      </ul>
-                      <ul className="text Student-ul">
-                        <li>Mr.Harsh Walia</li>
-                        <li>Mr. Chirag Patel</li>
-                        <li>Mr.Harsh Walia</li>
-                        <li>Mr. Chirag Patel</li>
-                        <li>Mr.Harsh Walia</li>
-                        <li>Mr. Chirag Patel</li>
-                        <li>Mr.Harsh Walia</li>
-                        <li>Mr. Chirag Patel</li>
-                      </ul>
+                      <div className="container">
+                        <ul className="text">
+                          <li>Mr.Harsh Walia</li>
+                          <li>Mr. Chirag Patel</li>
+                          <li>Mr.Harsh Walia</li>
+                          <li>Mr. Chirag Patel</li>
+                          <li>Mr.Harsh Walia</li>
+                          <li>Mr. Chirag Patel</li>
+                          <li>Mr.Harsh Walia</li>
+                          <li>Mr. Chirag Patel</li>
+                        </ul>
+                      </div>
+                      <div className="container">
+                        <ul className="text Student-ul d-flex flex-column">
+                          <li>Mr.Harsh Walia</li>
+                          <li>Mr. Chirag Patel</li>
+                          <li>Mr.Harsh Walia</li>
+                          <li>Mr. Chirag Patel</li>
+                          <li>Mr.Harsh Walia</li>
+                          <li>Mr. Chirag Patel</li>
+                          <li>Mr.Harsh Walia</li>
+                          <li>Mr. Chirag Patel</li>
+                        </ul>
+                      </div>
                     </p>
                   </div>
 
@@ -199,6 +253,7 @@ function Page() {
                       <ul className="academics-sidebar-ul">
                         <li className="academic-sidebar-li">
                           <a className="s1" href="https://www.gkv.ac.in/">
+                            <i class="bi bi-house-door"></i>
                             Home{" "}
                           </a>
                         </li>

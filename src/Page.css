@@ -12,6 +12,9 @@
     
    
 }
+.table-striped>tbody>tr:nth-of-type(odd)>*{
+    --bs-table-accent-bg: rgb(30 34 120 / 5%);
+}
 .text{
     text-align: left ;
     margin-top: 10px;
@@ -47,8 +50,16 @@ li >a:link {
     border: 2px solid #4148cb;
 }
 .Teacher-ul{
-    margin-left: 80px;
+    margin-left: 20px;
 }
 .Student-ul{
-    margin-left: 120px;
+    margin-left: 20px;
+}
+.extra-margin{
+    margin-left: 40px;
+    text-align: left;
+    margin-top: 10px;
+}
+.pextra{
+    padding-right: 40px;
 }
