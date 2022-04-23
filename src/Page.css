@@ -1,0 +1,54 @@
+.bg-style{
+    /* The image used */
+    
+
+    /* Add the blur effect */
+    
+    /* Full height */
+    height: 100%;
+    width: 100%;
+    
+
+    
+   
+}
+.text{
+    text-align: left ;
+    margin-top: 10px;
+}
+.text1{
+    text-align: left ;
+    margin-top: 10px;
+    margin-left: 17px;
+}
+.academics-sidebar-ul {
+    list-style: none;
+    padding: 0;
+    
+}
+.academic-sidebar-li {
+    
+    padding: 5px;
+    border-bottom: 1px dotted black;
+    
+}
+li >a:link {
+    text-decoration: none;
+    
+}
+.s1:hover{
+    background-color: #1e2278;
+    color: white;
+}
+.s1{
+    color: #1e2278;
+}
+.s1-bg{
+    border: 2px solid #4148cb;
+}
+.Teacher-ul{
+    margin-left: 80px;
+}
+.Student-ul{
+    margin-left: 120px;
+}
