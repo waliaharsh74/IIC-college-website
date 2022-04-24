@@ -1,3 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=Roboto:wght@300&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=Lora:ital,wght@1,500&family=Roboto:wght@300&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=Lora:ital,wght@1,500&family=PT+Serif:wght@400;700&family=Roboto:wght@300&family=Ubuntu&display=swap');
+
+@media screen and (max-width: 480px) {
+    .small-text {
+        font-size: 10px;
+    
+    }
+}
+@media screen and (max-width: 480px) {
+    .media1 {
+        font-size: 18px;
+    
+    }
+    .media2{
+        margin-left: -13px;
+    }
+}
+.br1{
+    border-radius: 6px;
+}
 .bg-style{
     /* The image used */
     
@@ -12,11 +34,20 @@
     
    
 }
+.font1{
+    font-family: 'Ubuntu',
+    sans-serif;
+        
+}
 .table-striped>tbody>tr:nth-of-type(odd)>*{
     --bs-table-accent-bg: rgb(30 34 120 / 5%);
 }
 .text{
     text-align: left ;
+    margin-top: 10px;
+}
+.text3{
+    text-align: center ;
     margin-top: 10px;
 }
 .text1{
@@ -29,31 +60,40 @@
     padding: 0;
     
 }
+.list-style-disc{
+    list-style: disc;
+
+}
 .academic-sidebar-li {
     
     padding: 5px;
     border-bottom: 1px dotted black;
     
 }
+li >div>a:link {
+    text-decoration: none;
+    
+}
 li >a:link {
     text-decoration: none;
     
 }
-.s1:hover{
-    background-color: #1e2278;
-    color: white;
-}
+
 .s1{
     color: #1e2278;
 }
+
 .s1-bg{
     border: 2px solid #4148cb;
 }
 .Teacher-ul{
-    margin-left: 20px;
+    margin: 10px;
+}
+.Teacher-ul2{
+    margin: 10px;
 }
 .Student-ul{
-    margin-left: 20px;
+    margin-left: -10px;
 }
 .extra-margin{
     margin-left: 40px;
@@ -62,4 +102,42 @@ li >a:link {
 }
 .pextra{
     padding-right: 40px;
+}
+.ficon{
+    color:rgb(66 103 178);
+    margin-left: 15px;
+}
+.ticon{
+    color:#1DA1F2;
+    margin-left: 10px;
+    
+}
+.gicon{
+   
+    margin-left: 10px;
+    
+}
+.instagram {
+    
+    background: #f09433;
+    color: white;
+    border-radius: 6px;
+    margin-left: 17px;
+    background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%),
+    radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent),
+    linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+}
+.text-purple{
+    color: #EE82EE;
+}
+/* ul>li{
+    font-family: 'PT Serif', serif;
+} */
+tbody{
+    font-family: 'PT Serif', serif;
 }

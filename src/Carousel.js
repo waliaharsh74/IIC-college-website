@@ -2,7 +2,7 @@ import React from "react";
 import "./Carousel.css";
 function Carousel() {
   return (
-    <div className="width-size">
+    <div className="container">
       <div
         id="carouselExampleCaptions"
         className="carousel slide"
