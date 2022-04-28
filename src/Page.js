@@ -1,4 +1,13 @@
 import React from "react";
+import "./Footer.css";
+import {
+  Box,
+  Container,
+  Row,
+  Column,
+  FooterLink,
+  Heading,
+} from "./FooterStyles";
 import Fade from "react-reveal/Fade";
 import Bounce from "react-reveal/Bounce";
 import GitHubIcon from "@mui/icons-material/GitHub";
@@ -17,18 +26,22 @@ function Page() {
         </div>
 
         <main className="container">
+          <div className="col-md-4">
+            <div className="position-sticky"></div>
+          </div>
           <div
+            id="Order-2"
             className="p-4 p-md- mb-4 text-white rounded "
             style={{ background: " #1e2278" }}
           >
             <div className="col-md-8  px-40 bg-style ">
               <Fade right>
-                <h4 className=" display-5 media1 fst-italic text1">
+                <h4 className=" display-5 media1 fst-italic text1 hlo">
                   Institution’s Innovation Council (IIC)
                 </h4>
               </Fade>
               <Fade right>
-                <p className="lead my-3 text1 small-text">
+                <p className="lead my-3 text1 small-text hlo2">
                   To streamline and strengthen the GKV campus Innovation and
                   Start-up Ecosystem with continuous guidance & support from the
                   Ministry of Education’s Innovation Cell (MIC)& AICTE, GKV has
@@ -38,7 +51,7 @@ function Page() {
                   enablers and institutions. Following are the list of
                   activities & CoordinatorsMembers of Institution’s Innovation
                   Council of GKV.
-                  <ul className="text media2">
+                  <ul className="text media2 hlo2">
                     <li>
                       <strong>President: </strong> Dr. Satyendra K. Rajput, DoPS
                     </li>
@@ -64,7 +77,10 @@ function Page() {
           <div className="row g-5">
             <div className="col-md-8">
               <Bounce bottom>
-                <div className=" br1 row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                <div
+                  className=" br1 row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
+                  id="Order-3"
+                >
                   <div className="col">
                     <div classname="card" style={{ height: "100%" }}>
                       <h3 className="mb-0 text-success  extra-margin">
@@ -146,7 +162,10 @@ function Page() {
                 </div>
               </Bounce>
               <Bounce bottom>
-                <div className="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                <div
+                  className="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
+                  id="Order-4"
+                >
                   <div className="col p-4 d-flex flex-column position-static">
                     <h3 className="mb-0 text-primary text1">
                       Teaching And Non-Teaching Members
@@ -192,7 +211,10 @@ function Page() {
                 </div>
               </Bounce>
               <Bounce bottom>
-                <div className="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                <div
+                  className="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
+                  id="Order-5"
+                >
                   <div className="col p-4 d-flex flex-column position-static">
                     <h3 className="mb-0 text-danger text1">External Members</h3>
 
@@ -250,7 +272,7 @@ function Page() {
             <div className="col-md-4">
               <div className="position-sticky">
                 {/* <Parallax translateY={[-20, 20]}> */}
-                <Fade bottom>
+                <Fade bottom id="Order-1">
                   <div className="p-4 mb-3 bg-light rounded s1-bg br1">
                     <h4 className=" font1 ">Spotlight</h4>
                     <p className="mb-0">
@@ -448,7 +470,7 @@ function Page() {
                 </div>
 
                 <div className="p-4">
-                  <h4 className="fst-bold text-purple">Social Media</h4>
+                  {/* <h4 className="fst-bold text-purple">Social Media</h4> */}
                   <ol className="list-unstyled text d-flex social">
                     <li>
                       <GitHubIcon className="gicon" />
@@ -476,6 +498,7 @@ function Page() {
         <footer className="blog-footer">
           <p>
             <a href="#">Back to top</a>
+            {/* add footer here */}
           </p>
         </footer>
       </div>

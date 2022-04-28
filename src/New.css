@@ -1,0 +1,23 @@
+.sd2{
+    left: 1px;
+    margin-left: 8px;
+    color: #1e2278;
+}
+#basic-nav-dropdown{
+    color: #1e2278;
+}
+#home{
+    color: #1e2278;
+}
+#spaceu{
+    margin-left: 40px;
+}
+#navBg{
+    background-color: #f1f1f1;
+    border-bottom: 2px solid #1e2278;
+    border-top: 2px solid #1e2278;
+
+}
+#spaceu{
+    margin-left: 100px;
+}

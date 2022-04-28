@@ -1,0 +1,48 @@
+.top-menu {
+    
+    position: relative;
+    
+    padding-right: 10px;
+    width: 40%;
+    display: block;
+}
+
+.float-right {
+    display: flex;
+    /* width: 40%; */
+    /* justify-content:space-between; */
+    padding-left: 40px;
+    list-style-type: none;
+}
+
+
+.float-right>li {
+    padding-left: 20px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.float-right>li>a {
+    text-decoration: none;
+}
+
+
+@media (min-width: 992px) {.sdk {
+    width: 970px;
+}}
+
+@media (min-width: 768px) {.sdk {
+    width: 750px;
+}}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+@media screen and (min-width: 480px) {
+    .top-menu{
+        left: 60%;
+    }
+}

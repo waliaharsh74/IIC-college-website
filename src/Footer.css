@@ -1,0 +1,37 @@
+.i1{
+    margin-right: 3px;
+    padding: 2px;
+    color: white;
+
+    
+    
+}
+.i3{
+    padding-left: 42px;
+}
+.gkvlogo{
+    margin-top: -100px;
+}
+.mextra{
+    padding-right: 100px;
+}
+@media screen  and (min-width: 768px) {
+    .col-md-3 {
+        /* flex: 0 0 auto; */
+        width: 114%;
+    }
+}
+@media screen  and (min-width: 350px) {
+    .mextra {
+        /* flex: 0 0 auto; */
+        width: 132%;
+    }
+}
+.cieLse{
+    bottom: -19px;
+}
+.me1{
+    padding-left: 52px;
+    color: white;
+    margin-left: 4px;
+}

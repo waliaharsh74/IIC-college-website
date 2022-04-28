@@ -1,6 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=Roboto:wght@300&family=Ubuntu&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=Lora:ital,wght@1,500&family=Roboto:wght@300&family=Ubuntu&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=Lora:ital,wght@1,500&family=PT+Serif:wght@400;700&family=Roboto:wght@300&family=Ubuntu&display=swap');
+@media screen and (min-width: 768px) {
+
+    .col-md-3 {
+        /* flex: 0 0 auto; */
+        width: 27%;
+    }
+}
+@media screen and (min-width: 800px) {
+
+    .mextra{
+        /* flex: 0 0 auto; */
+        width: 275%;
+    }
+}
 
 @media screen and (max-width: 480px) {
     .small-text {
@@ -16,6 +30,20 @@
     .media2{
         margin-left: -13px;
     }
+}
+.i3 {
+    margin-right: 3px;
+    margin-left: 20px;
+    padding: 2px;
+    color: white;
+    margin-top: -25px;
+}
+.media2>li{
+    font-size: 1.25rem!important;
+    list-style: disc;
+}
+.mextra{
+    padding-right: 40px;
 }
 .br1{
     border-radius: 6px;
@@ -140,4 +168,37 @@ li >a:link {
 } */
 tbody{
     font-family: 'PT Serif', serif;
+}
+@media only screen and (max-width: 480px) {
+    div#Order-1 {
+        order: 1!important;
+        -webkit-order: 1 !important;
+        
+    }
+    div#Order-2{
+        order:2 !important;
+        -webkit-order:2 !important;
+    }
+    #Order-3{
+        order:3;
+        -webkit-order:3;
+    }
+    #Order-4{
+        order:4;
+        -webkit-order:4;
+    }
+    #Order-5{
+        order:5;
+        -webkit-order:5;
+    }
+        /* magic order switching */
+    
+}
+@media (max-width: 1000px) {
+    .hlo{
+        font-size: 25px;
+    }
+    .media2>li{
+        font-size: 10px!important;
+    }
 }

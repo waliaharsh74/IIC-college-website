@@ -1,0 +1,40 @@
+.img1{
+    width: 50%;
+    margin-left: 0px;
+    float: left;
+}
+.img2{
+    width: 250%;
+}
+.img3{
+    width: 50%;
+}
+.d{
+    margin-left: -30px;
+    display: flex;
+}
+@media (max-width: 1000px) {
+    
+    .img2{
+        width: 60% ;
+        margin-top: 20px;
+        padding-left: 20px;
+       
+    }
+    .img3{
+        width: 0%;
+    }
+    .img1{
+        width: 20%;
+        
+        text-align: left;
+    }
+    .d{
+        margin-left: -40px;
+        padding-left: -30px;
+        display: block  ;
+    }
+
+
+
+}
