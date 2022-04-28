@@ -7,6 +7,7 @@
     display: block;
 }
 
+
 .float-right {
     display: flex;
     /* width: 40%; */
@@ -27,13 +28,7 @@
 }
 
 
-@media (min-width: 992px) {.sdk {
-    width: 970px;
-}}
 
-@media (min-width: 768px) {.sdk {
-    width: 750px;
-}}
 
 .container {
     padding-right: 15px;
