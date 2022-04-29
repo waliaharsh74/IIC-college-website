@@ -21,3 +21,21 @@
 #spaceu{
     margin-left: 100px;
 }
+.dropdownTag>a:link{
+    color: #1e2278!important;
+    margin-top: 7px;
+    text-decoration: none;
+    
+}
+.dropdownTag>a{
+    color: #1e2278;
+    margin-top: 7px;
+    text-decoration: none;
+    
+}
+.dropdownTag{
+    color: #1e2278;
+    margin-top: 7.5px;
+    text-decoration: none;
+    
+}

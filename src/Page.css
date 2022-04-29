@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=Roboto:wght@300&family=Ubuntu&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=Lora:ital,wght@1,500&family=Roboto:wght@300&family=Ubuntu&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=Lora:ital,wght@1,500&family=PT+Serif:wght@400;700&family=Roboto:wght@300&family=Ubuntu&display=swap');
+
 @media screen and (min-width: 768px) {
 
     .col-md-3 {
@@ -8,9 +9,10 @@
         width: 27%;
     }
 }
+
 @media screen and (min-width: 800px) {
 
-    .mextra{
+    .mextra {
         /* flex: 0 0 auto; */
         width: 275%;
     }
@@ -19,18 +21,21 @@
 @media screen and (max-width: 480px) {
     .small-text {
         font-size: 10px;
-    
+
     }
 }
+
 @media screen and (max-width: 480px) {
     .media1 {
         font-size: 18px;
-    
+
     }
-    .media2{
+
+    .media2 {
         margin-left: -13px;
     }
 }
+
 .i3 {
     margin-right: 3px;
     margin-left: 20px;
@@ -38,167 +43,210 @@
     color: white;
     margin-top: -25px;
 }
-.media2>li{
-    font-size: 1.25rem!important;
+
+.media2>li {
+    font-size: 1.25rem !important;
     list-style: disc;
 }
-.mextra{
+
+.mextra {
     padding-right: 40px;
 }
-.br1{
+
+.br1 {
     border-radius: 6px;
 }
-.bg-style{
+
+.bg-style {
     /* The image used */
-    
+
 
     /* Add the blur effect */
-    
+
     /* Full height */
     height: 100%;
     width: 100%;
-    
 
-    
-   
+
+
+
 }
-.font1{
+
+.font1 {
     font-family: 'Ubuntu',
-    sans-serif;
-        
+        sans-serif;
+
 }
-.table-striped>tbody>tr:nth-of-type(odd)>*{
+
+.table-striped>tbody>tr:nth-of-type(odd)>* {
     --bs-table-accent-bg: rgb(30 34 120 / 5%);
 }
-.text{
-    text-align: left ;
+
+.text {
+    text-align: left;
     margin-top: 10px;
 }
-.text3{
-    text-align: center ;
+.textt {
+    text-align: left;
     margin-top: 10px;
 }
-.text1{
-    text-align: left ;
+
+.text3 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.text1 {
+    text-align: left;
     margin-top: 10px;
     margin-left: 17px;
 }
+
 .academics-sidebar-ul {
     list-style: none;
     padding: 0;
-    
+
 }
-.list-style-disc{
+
+.list-style-disc {
     list-style: disc;
 
 }
+
 .academic-sidebar-li {
-    
+
     padding: 5px;
     border-bottom: 1px dotted black;
-    
-}
-li >div>a:link {
-    text-decoration: none;
-    
-}
-li >a:link {
-    text-decoration: none;
-    
+
 }
 
-.s1{
+li>div>a:link {
+    text-decoration: none;
+
+}
+
+li>a:link {
+    text-decoration: none;
+
+}
+
+.s1 {
     color: #1e2278;
 }
 
-.s1-bg{
+.s1-bg {
     border: 2px solid #4148cb;
 }
-.Teacher-ul{
+
+.Teacher-ul {
     margin: 10px;
 }
-.Teacher-ul2{
+
+.Teacher-ul2 {
     margin: 10px;
 }
-.Student-ul{
+
+.Student-ul {
     margin-left: -10px;
 }
-.extra-margin{
+
+.extra-margin {
     margin-left: 40px;
     text-align: left;
     margin-top: 10px;
 }
-.pextra{
+
+.pextra {
     padding-right: 40px;
 }
-.ficon{
-    color:rgb(66 103 178);
+
+.ficon {
+    color: rgb(66 103 178);
     margin-left: 15px;
 }
-.ticon{
-    color:#1DA1F2;
+
+.ticon {
+    color: #1DA1F2;
     margin-left: 10px;
-    
+
 }
-.gicon{
-   
+
+.gicon {
+
     margin-left: 10px;
-    
+
 }
+
 .instagram {
-    
+
     background: #f09433;
     color: white;
     border-radius: 6px;
     margin-left: 17px;
     background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%),
-    radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%),
-    radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%),
-    radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%),
-    radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%),
-    radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%),
-    radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent),
-    linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+        radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%),
+        radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%),
+        radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%),
+        radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%),
+        radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%),
+        radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent),
+        linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
 }
-.text-purple{
+
+.text-purple {
     color: #EE82EE;
 }
+
 /* ul>li{
     font-family: 'PT Serif', serif;
 } */
-tbody{
+tbody {
     font-family: 'PT Serif', serif;
 }
-@media only screen and (max-width: 480px) {
-    div#Order-1 {
-        order: 1!important;
-        -webkit-order: 1 !important;
-        
-    }
-    div#Order-2{
-        order:2 !important;
-        -webkit-order:2 !important;
-    }
-    #Order-3{
-        order:3;
-        -webkit-order:3;
-    }
-    #Order-4{
-        order:4;
-        -webkit-order:4;
-    }
-    #Order-5{
-        order:5;
-        -webkit-order:5;
-    }
-        /* magic order switching */
-    
-}
+
 @media (max-width: 1000px) {
-    .hlo{
+    .hlo {
         font-size: 25px;
     }
-    .media2>li{
-        font-size: 10px!important;
+
+    .media2>li {
+        font-size: 10px !important;
     }
 }
+
+#Order-1 {
+    display: none;
+}
+
+@media (max-width: 1000px) {
+    #Order-1 {
+        display: block;
+    }
+
+    #Order-5 {
+        display: none;
+    }
+
+
+}
+@media (max-width: 1000px) {
+    .dc{
+        flex-direction: column!important;
+        margin-left: 0px;
+        
+    }
+    .T2{
+        margin-top: 0px;
+    }
+    .textt{
+        margin-bottom: 0px;
+    }
+
+
+}
+.f1{
+    font-family: 'PT Serif',
+    serif;
+}
+
+

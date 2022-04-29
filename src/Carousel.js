@@ -1,8 +1,11 @@
 import React from "react";
 import "./Carousel.css";
+import ideathon from "./icons/ideathon.jpeg";
+import iiclogo from "./icons/iic-logo.jpg";
+import pitchingevent from "./icons/pitching-event.jpeg";
 function Carousel() {
   return (
-    <div className="container">
+    <div className="container c2 ">
       <div
         id="carouselExampleCaptions"
         className="carousel slide"
@@ -30,44 +33,23 @@ function Carousel() {
             aria-label="Slide 3"
           ></button>
         </div>
-        <div className="carousel-inner">
-          <div className="carousel-item active">
-            <img
-              src="https://www.gkv.ac.in/wp-content/uploads/2021/11/WEBSITE-SLIDER4.png"
-              className="d-block w-100"
-              alt="..."
-            />
+        <div className="carousel-inner ">
+          <div className="carousel-item active ca1 ">
+            <img src={ideathon} className="d-block w-100 ca1 " alt="..." />
             <div className="carousel-caption d-none d-md-block">
-              <h5>First slide label</h5>
-              <p>
-                Some representative placeholder content for the first slide.
-              </p>
+              <h5>Pitching Event</h5>
             </div>
           </div>
-          <div className="carousel-item">
-            <img
-              src="https://www.gkv.ac.in/wp-content/uploads/2021/11/WEBSITE-SLIDER4.png"
-              className="d-block w-100"
-              alt="..."
-            />
+          <div className="carousel-item ca1">
+            <img src={iiclogo} className="d-block w-100 ca1 " alt="..." />
             <div className="carousel-caption d-none d-md-block">
-              <h5>Second slide label</h5>
-              <p>
-                Some representative placeholder content for the second slide.
-              </p>
+              <h5>ideathon</h5>
             </div>
           </div>
-          <div className="carousel-item">
-            <img
-              src="https://www.gkv.ac.in/wp-content/uploads/2021/11/WEBSITE-SLIDER4.png"
-              className="d-block w-100"
-              alt="..."
-            />
+          <div className="carousel-item ca1">
+            <img src={pitchingevent} className="d-block w-100 ca1" alt="..." />
             <div className="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
-              <p>
-                Some representative placeholder content for the third slide.
-              </p>
+              <h5>Pitch a Thought</h5>
             </div>
           </div>
         </div>

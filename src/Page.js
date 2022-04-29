@@ -1,13 +1,5 @@
 import React from "react";
-import "./Footer.css";
-import {
-  Box,
-  Container,
-  Row,
-  Column,
-  FooterLink,
-  Heading,
-} from "./FooterStyles";
+
 import Fade from "react-reveal/Fade";
 import Bounce from "react-reveal/Bounce";
 import GitHubIcon from "@mui/icons-material/GitHub";
@@ -29,6 +21,97 @@ function Page() {
           <div className="col-md-4">
             <div className="position-sticky"></div>
           </div>
+          <Fade bottom>
+            <div className="p-4 mb-3 bg-light rounded s1-bg br1" id="Order-1">
+              <h4 className=" font1 ">Spotlight</h4>
+              <p className="mb-0">
+                <ul className="academics-sidebar-ul">
+                  <li className="academic-sidebar-li s1">
+                    <div className="sidebar1 s1">
+                      <a className="s1" href="https://www.gkv.ac.in/">
+                        Home{" "}
+                      </a>
+                    </div>
+                  </li>
+                  <li className="academic-sidebar-li">
+                    <div className="sidebar1 s1">
+                      <a className="s1" href="https://www.gkv.ac.in/about-us">
+                        About Vishwavidyalaya{" "}
+                      </a>
+                    </div>
+                  </li>
+                  <li className="academic-sidebar-li">
+                    <div className="sidebar1 s1">
+                      <a className="s1" href="#">
+                        Administration
+                      </a>
+                    </div>
+                  </li>
+                  <li className="academic-sidebar-li">
+                    <div className="sidebar1 s1">
+                      <a
+                        className="s1"
+                        href="https://www.gkv.ac.in/the-chancellor"
+                      >
+                        The Chancellor
+                      </a>
+                    </div>
+                  </li>
+                  <li className="academic-sidebar-li">
+                    <div className="sidebar1 s1">
+                      <a
+                        className="s1"
+                        href="https://www.gkv.ac.in/the-vice-chancellor"
+                      >
+                        The Vice-Chancellor
+                      </a>
+                    </div>
+                  </li>
+
+                  <li className="academic-sidebar-li">
+                    <div className="sidebar1 s1">
+                      <a
+                        className="s1"
+                        href="https://www.gkv.ac.in/the-registrar"
+                      >
+                        The Registrar
+                      </a>
+                    </div>
+                  </li>
+                  <li className="academic-sidebar-li">
+                    <div className="sidebar1 s1">
+                      <a
+                        className="s1"
+                        href="https://www.gkv.ac.in/finance-officer"
+                      >
+                        The Finance Officer
+                      </a>
+                    </div>
+                  </li>
+                  <li className="academic-sidebar-li">
+                    <div className="sidebar1 s1">
+                      <a
+                        className="s1"
+                        href="https://www.gkv.ac.in/heads-deans/"
+                      >
+                        Heads &amp; Deans
+                      </a>
+                    </div>
+                  </li>
+                  <li className="academic-sidebar-li">
+                    <div className="sidebar1 s1">
+                      <a
+                        className="s1"
+                        href="https://www.gkv.ac.in/how-to-reach"
+                      >
+                        How to Reach
+                      </a>
+                    </div>
+                  </li>
+                </ul>
+              </p>
+            </div>
+          </Fade>
           <div
             id="Order-2"
             className="p-4 p-md- mb-4 text-white rounded "
@@ -60,7 +143,7 @@ function Page() {
                       Director MSME
                     </li>
                     <li>
-                      <strong>Convenor:</strong> Dr. Mayank Aggarwal, CSE
+                      <strong>Convenor:</strong> Dr. Rakesh Bhutiani, Zoology
                     </li>
                   </ul>
                 </p>
@@ -166,42 +249,53 @@ function Page() {
                   className="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
                   id="Order-4"
                 >
-                  <div className="col p-4 d-flex flex-column position-static">
+                  <div className="col p-4 d-flex flex-column position-static f1">
                     <h3 className="mb-0 text-primary text1">
                       Teaching And Non-Teaching Members
                     </h3>
 
-                    <p className="mb-auto d-flex flex-row">
+                    <p className="mb-auto d-flex flex-row dc">
                       <div className="container">
-                        <ul className="text  ml-20 d-flex flex-column">
+                        <ul className="textt  ml-20 d-flex flex-column T1">
+                          <li>Dr. Mayank Aggarwal, FIET</li>
                           <li>Prof. Vivek Kumar, MCA</li>
-                          <li>Prof. Vivek Kumar, MCA</li>
-                          <li>Prof. Vivek Kumar, MCA</li>
-                          <li>Prof. Vivek Kumar, MCA</li>
-                          <li>Prof. Vivek Kumar, MCA</li>
-                          <li>Prof. Vivek Kumar, MCA</li>
-                          <li>Prof. Vivek Kumar, MCA</li>
-                          <li>Prof. Vivek Kumar, MCA</li>
-                          <li>Prof. Vivek Kumar, MCA</li>
-                          <li>Prof. Vivek Kumar, MCA</li>
-                          <li>Prof. Vivek Kumar, MCA</li>
-                          <li>Prof. Vivek Kumar, MCA</li>
+                          <li>Dr. Chiranjeev Banerjee, Botany</li>
+                          <li>Mr. Kapil Dev Sharma, FET</li>
+                          <li>Dr. Harish Chandra, Botany</li>
+                          <li>Dr. Ajay Malik, B.P.Ed.</li>
+                          <li>Mr. Vivek Arya, FET</li>
+                          <li>Dr. Suhas, DoC</li>
+                          <li>Dr. Neena Gupta, KGM Dehradun</li>
+                          <li>Dr. Manila, KGM</li>
+                          <li>Dr. Mohar Singh Meena, Sanskrit</li>
+                          <li>Dr. Anuj Sharma, Electronics</li>
+                          <li>Dr. Peeush Singhal, DoPS</li>
+                          <li>Mr. Pankaj Kaushik, P.R.O</li>
+                          <li>Dr. Ajeet, Hindi</li>
+
+                          <li>Mr. Hemant Negi, Academic section</li>
+                          <li>Mr. Kulbhushan, P.R.O office</li>
                         </ul>
                       </div>
                       <div className="container">
-                        <ul className="text    ml-20 d-flex flex-column ">
-                          <li>Prof. Vivek Kumar, MCA</li>
-                          <li>Prof. Vivek Kumar, MCA</li>
-                          <li>Prof. Vivek Kumar, MCA</li>
-                          <li>Prof. Vivek Kumar, MCA</li>
-                          <li>Prof. Vivek Kumar, MCA</li>
-                          <li>Prof. Vivek Kumar, MCA</li>
-                          <li>Prof. Vivek Kumar, MCA</li>
-                          <li>Prof. Vivek Kumar, MCA</li>
-                          <li>Prof. Vivek Kumar, MCA</li>
-                          <li>Prof. Vivek Kumar, MCA</li>
-                          <li>Prof. Vivek Kumar, MCA</li>
-                          <li>Prof. Vivek Kumar, MCA</li>
+                        <ul className="text  d-flex flex-column T1 T2 ">
+                          <li>Dr. Nidhi Handa, KGM Haridwar</li>
+                          <li>Dr. Prince Prashant Sharma, DoPS</li>
+                          <li>Dr. Kapil Pandey, MBA</li>
+                          <li>Dr. Sandeep Kumar, Botany</li>
+                          <li>Dr. Kapil Mishra,DoPE</li>
+                          <li>Dr. Rajul Bhardwaj, MBA</li>
+                          <li>Mr. Mayank Pokhriyal, FET</li>
+                          <li>Mr. Balwant Singh Rawat,DoPS</li>
+                          <li>Dr. Heman Pathak, KGM Dehradun</li>
+                          <li>Mr. Rahul Singh,DoPS</li>
+                          <li>Dr. Vineet, Department of Botany</li>
+                          <li>Dr. Suyesh Bhardwaj, CSE FET</li>
+                          <li>Dr. Kartikey Gupta, Microbiology</li>
+                          <li>Dr. Vaaroon Bakshi. English</li>
+                          <li>Dr. Dileep Kushwah, History</li>
+                          <li>Mr. Rohit Bhardwaj,DoPS</li>
+                          <li>Dr. Deendayal Vedalankar, DoV</li>
                         </ul>
                       </div>
                     </p>
@@ -211,10 +305,7 @@ function Page() {
                 </div>
               </Bounce>
               <Bounce bottom>
-                <div
-                  className="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
-                  id="Order-5"
-                >
+                <div className="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative f1">
                   <div className="col p-4 d-flex flex-column position-static">
                     <h3 className="mb-0 text-danger text1">External Members</h3>
 
@@ -232,7 +323,7 @@ function Page() {
                 </div>
               </Bounce>
               <Bounce bottom>
-                <div className="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                <div className="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative f1">
                   <div className="col p-4 d-flex flex-column position-static">
                     <h3 className="mb-0 text-warning text1">Student Members</h3>
 
@@ -241,24 +332,20 @@ function Page() {
                         <ul className="text Student-ul ">
                           <li>Mr.Harsh Walia</li>
                           <li>Mr. Chirag Patel</li>
-                          <li>Mr.Harsh Walia</li>
-                          <li>Mr. Chirag Patel</li>
-                          <li>Mr.Harsh Walia</li>
-                          <li>Mr. Chirag Patel</li>
-                          <li>Mr.Harsh Walia</li>
-                          <li>Mr. Chirag Patel</li>
+                          <li>Mr.Abhinav Ranjan Jha</li>
+                          <li>Mr. Naman Chandra</li>
+                          <li>Mr.Kunal Singh Shekhawat</li>
+                          <li>Mr. Joshi bhavesh praveen</li>
                         </ul>
                       </div>
                       <div className="container">
                         <ul className="text  Student-ul   ml-20 d-flex flex-column">
-                          <li>Mr.Harsh Walia</li>
-                          <li>Mr. Chirag Patel</li>
-                          <li>Mr.Harsh Walia</li>
-                          <li>Mr. Chirag Patel</li>
-                          <li>Mr.Harsh Walia</li>
-                          <li>Mr. Chirag Patel</li>
-                          <li>Mr.Harsh Walia</li>
-                          <li>Mr. Chirag Patel</li>
+                          <li>Mr.Himanshu Shekhar</li>
+                          <li>Mr. Ashish Bibyan </li>
+                          <li>Mr.Shivam Pant</li>
+                          <li>Aditya Khandelwal</li>
+                          <li>Mr.Rishu Kumar</li>
+                          <li>Mr. Hansal Kothari</li>
                         </ul>
                       </div>
                     </p>
@@ -272,8 +359,11 @@ function Page() {
             <div className="col-md-4">
               <div className="position-sticky">
                 {/* <Parallax translateY={[-20, 20]}> */}
-                <Fade bottom id="Order-1">
-                  <div className="p-4 mb-3 bg-light rounded s1-bg br1">
+                <Fade bottom>
+                  <div
+                    className="p-4 mb-3 bg-light rounded s1-bg br1"
+                    id="Order-5"
+                  >
                     <h4 className=" font1 ">Spotlight</h4>
                     <p className="mb-0">
                       <ul className="academics-sidebar-ul">
@@ -367,128 +457,134 @@ function Page() {
                   </div>
                 </Fade>
                 {/* </Parallax> */}
-
-                <div className="p-4">
-                  <h4 className=" text-info">Events</h4>
-                  <ol className="list-style-disc mb-0 text ">
-                    <li>
-                      <a href="#">
-                        Impact Lecture on How to start a startup in India? on
-                        04/10/2021
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        Impact Lecture on Angel investment and VC funding on
-                        04/10/2021
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        Impact Lecture on International Patentability and Patent
-                        Prosecution Process on 12/10/2021
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        A Report on Research Project and Funding Opportunities
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        Webinar/Workshop on Grant and IPR on 16 July 2021.
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        Workshop on “Startup – Your First Step” on 10th July
-                        2021.
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        Webinar on “Fruit flies in space: Innovation Relevant to
-                        Astronaut’s health” on 7th July 2021.
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        Felicitation and Motivation session for GPAT toppers on
-                        26th June 2021.
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        Webinar attended by IIC members conducted by IBM on
-                        “IBM’s offerings and partnership with academic
-                        institutes” on 22nd June 2021.
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        Webinar on “Unlocking opportunities and potential with
-                        internship on 20th June 2021.
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        AICTE webinar on awareness of NEAT Scheme and Internship
-                        on 16th June 2021.
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        Webinar attended by IIC members conducted by MIC Driven
-                        Activity on “Your Ph.D./Masters Thesis to start-up” on
-                        23rd April 2021.
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        Webinar on “Empowerment through Enterprise” on 22nd Feb
-                        2021.
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        Webinar on A Conversation to Start your Journey of
-                        Entrepreneurship/Startup 9th Feb 2021.
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        Webinar attended by a team of IPR under Institution’s
-                        Innovation Council (MHRD) on 10th Feb 2021.
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        Webinar attended by a team of IPR on 6th Feb 2021
-                      </a>
-                    </li>
-                  </ol>
-                </div>
+                <Fade bottom>
+                  <div className="p-4">
+                    <h4 className=" text-info">Events</h4>
+                    <ol className="list-style-disc mb-0 text ">
+                      <li>
+                        <a href="https://www.gkv.ac.in/wp-content/uploads/2021/12/2021_10_04_L1.pdf">
+                          Impact Lecture on How to start a startup in India? on
+                          04/10/2021
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://www.gkv.ac.in/wp-content/uploads/2021/12/2021_10_04_L2.pdf">
+                          Impact Lecture on Angel investment and VC funding on
+                          04/10/2021
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://www.gkv.ac.in/wp-content/uploads/2021/12/2021_10_12_L3.pdf">
+                          Impact Lecture on International Patentability and
+                          Patent Prosecution Process on 12/10/2021
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://www.gkv.ac.in/wp-content/uploads/2021/12/2021_08_06.pdf">
+                          A Report on Research Project and Funding Opportunities
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://www.gkv.ac.in/wp-content/uploads/2021/12/2021_07_16.pdf">
+                          Webinar/Workshop on Grant and IPR on 16 July 2021.
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://www.gkv.ac.in/wp-content/uploads/2021/12/2021_07_10.pdf">
+                          Workshop on “Startup – Your First Step” on 10th July
+                          2021.
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://www.gkv.ac.in/wp-content/uploads/2021/12/2021/2021_07_07.pdf">
+                          Webinar on “Fruit flies in space: Innovation Relevant
+                          to Astronaut’s health” on 7th July 2021.
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://www.gkv.ac.in/wp-content/uploads/2021/12/2021_6_26.pdf">
+                          Felicitation and Motivation session for GPAT toppers
+                          on 26th June 2021.
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://www.gkv.ac.in/wp-content/uploads/2021/12/2021_06_22.pdf">
+                          Webinar attended by IIC members conducted by IBM on
+                          “IBM’s offerings and partnership with academic
+                          institutes” on 22nd June 2021.
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://www.gkv.ac.in/wp-content/uploads/2021/12/2021_06_29_UnlockingOpportunities.pdf">
+                          Webinar on “Unlocking opportunities and potential with
+                          internship on 20th June 2021.
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://www.gkv.ac.in/wp-content/uploads/2021/12/2021_06_29_AwarenessNEAT.pdf">
+                          AICTE webinar on awareness of NEAT Scheme and
+                          Internship on 16th June 2021.
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://www.gkv.ac.in/wp-content/uploads/2021/12/2021_04_MIC-IPR-WEBINAR-REPORT.pdf">
+                          Webinar attended by IIC members conducted by MIC
+                          Driven Activity on “Your Ph.D./Masters Thesis to
+                          start-up” on 23rd April 2021.
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://www.gkv.ac.in/wp-content/uploads/2021/12/2021_02_22.pdf">
+                          Webinar on “Empowerment through Enterprise” on 22nd
+                          Feb 2021.
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://www.gkv.ac.in/wp-content/uploads/2021/12/WebIICStart9Feb2021.pdf">
+                          Webinar on A Conversation to Start your Journey of
+                          Entrepreneurship/Startup 9th Feb 2021.
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://www.gkv.ac.in/wp-content/uploads/2021/12/2021_02_10_WebTmIPRInstInovCnclMHRD.pdf">
+                          Webinar attended by a team of IPR under Institution’s
+                          Innovation Council (MHRD) on 10th Feb 2021.
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://www.gkv.ac.in/wp-content/uploads/2021/12/2021_02_06_WebTmIPR.pdf">
+                          Webinar attended by a team of IPR on 6th Feb 2021
+                        </a>
+                      </li>
+                    </ol>
+                  </div>
+                </Fade>
 
                 <div className="p-4">
                   {/* <h4 className="fst-bold text-purple">Social Media</h4> */}
-                  <ol className="list-unstyled text d-flex social">
-                    <li>
-                      <GitHubIcon className="gicon" />
-                      <a href="#">GitHub</a>
-                    </li>
-                    <li>
-                      <TwitterIcon className="ticon" />
-                      <a href="#">Twitter</a>
-                    </li>
-                    <li>
-                      <FacebookIcon className="ficon" />
-                      <a href="#">Facebook</a>
-                    </li>
-                    <li>
-                      <InstagramIcon className="instagram" />
-                      <a href="#">Instagram</a>
-                    </li>
-                  </ol>
+
+                  <>
+                    <Fade bottom>
+                      <ol className="list-unstyled text d-flex social">
+                        <li>
+                          <GitHubIcon className="gicon" />
+                          <a href="#">GitHub</a>
+                        </li>
+                        <li>
+                          <TwitterIcon className="ticon" />
+                          <a href="#">Twitter</a>
+                        </li>
+                        <li>
+                          <FacebookIcon className="ficon" />
+                          <a href="#">Facebook</a>
+                        </li>
+                        <li>
+                          <InstagramIcon className="instagram" />
+                          <a href="#">Instagram</a>
+                        </li>
+                      </ol>
+                    </Fade>
+                  </>
                 </div>
               </div>
             </div>

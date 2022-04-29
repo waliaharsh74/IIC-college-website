@@ -4,3 +4,19 @@
     margin: auto auto  ;
     
 }
+
+    @media (max-width: 1000px)   {
+        .c2 {
+           margin-top: 20px;
+        height: 209px !important;
+           
+        }
+        .carousel-item>img{
+            height: 209px !important;
+        }
+    }
+.ca1{
+    height: 480px!important;
+    width: 100%!important;
+    object-fit: cover;
+}

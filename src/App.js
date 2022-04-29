@@ -3,8 +3,7 @@ import Page from "./Page.js";
 import Header from "./Header.js";
 import TopMenu from "./TopMenu.js";
 import Carousel from "./Carousel.js";
-// import Navbar from "./Navbar";
-// import NavMenus from "./NavMenus";
+import Footer from "./Footer.js";
 import New from "./New";
 // import Navbar from "./Navbar";
 
@@ -31,6 +30,7 @@ function App() {
       </div> */}
       <Carousel />
       <Page />
+      <Footer />
 
       {/* <Sidebar /> */}
 
