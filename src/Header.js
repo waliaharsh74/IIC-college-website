@@ -1,12 +1,5 @@
 import React from "react";
-import {
-  Box,
-  Container,
-  Row,
-  Column,
-  HeaderLink,
-  Heading,
-} from "./HeaderStyles";
+import { Box, Container, Row, Column } from "./HeaderStyles";
 
 import "./Header.css";
 const Header = () => {

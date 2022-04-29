@@ -327,25 +327,28 @@ function Page() {
                   <div className="col p-4 d-flex flex-column position-static">
                     <h3 className="mb-0 text-warning text1">Student Members</h3>
 
-                    <p className="mb-auto d-flex flex-row">
+                    <p className="mb-auto d-flex flex-row dc">
                       <div className="container">
-                        <ul className="text Student-ul ">
-                          <li>Mr.Harsh Walia</li>
-                          <li>Mr. Chirag Patel</li>
-                          <li>Mr.Abhinav Ranjan Jha</li>
-                          <li>Mr. Naman Chandra</li>
-                          <li>Mr.Kunal Singh Shekhawat</li>
-                          <li>Mr. Joshi bhavesh praveen</li>
+                        <ul className="text Student-ul textt ">
+                          <li>Mr. Chirag Patel (Student Head Co-ordinator)</li>
+                          <li>Mr.Harsh Walia(E-poster / Web Lead)</li>
+                          <li>Mr. Ashish Bibyan(Advertisment Lead) </li>
+                          <li>Mr. Naman Chandra(Hosting /Advertisment)</li>
+                          <li>Mr.Kunal Singh Shekhawat(Consultant Lead)</li>
+                          <li>Mr. Joshi bhavesh praveen(Consultant)</li>
+                          <li>Mr. Sourabh dubey(Hosting)</li>
                         </ul>
                       </div>
-                      <div className="container">
-                        <ul className="text  Student-ul   ml-20 d-flex flex-column">
-                          <li>Mr.Himanshu Shekhar</li>
-                          <li>Mr. Ashish Bibyan </li>
-                          <li>Mr.Shivam Pant</li>
-                          <li>Aditya Khandelwal</li>
-                          <li>Mr.Rishu Kumar</li>
-                          <li>Mr. Hansal Kothari</li>
+                      <div className="container ">
+                        <ul className="text  Student-ul  T2 ml-20 d-flex flex-column">
+                          <li>Mr.Himanshu Shekhar(Consultant/Advertise)</li>
+
+                          <li>Mr.Shivam Pant(Advertisment)</li>
+                          <li>Aditya Khandelwal(Video Editing lead)</li>
+                          <li>Mr.Abhinav Ranjan Jha(Hosting/E-Poster lead)</li>
+                          <li>Mr.Rishu Kumar(Consultant)</li>
+                          <li>Mr. Hansal Kothari(Content writer lead)</li>
+                          <li>Mr. Harsh Bokadia(Advertisment)</li>
                         </ul>
                       </div>
                     </p>
