@@ -20,3 +20,9 @@
     width: 100%!important;
     object-fit: cover;
 }
+.carousel-control-prev-icon{
+    color: black!important;
+}
+.arrows{
+    position: relative;
+}

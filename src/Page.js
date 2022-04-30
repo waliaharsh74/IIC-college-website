@@ -8,6 +8,7 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import FacebookIcon from "@mui/icons-material/Facebook";
 // import { Parallax } from "react-scroll-parallax";
 import "./Page.css";
+import Announcement from "./Announcement";
 
 function Page() {
   return (
@@ -134,7 +135,7 @@ function Page() {
                   enablers and institutions. Following are the list of
                   activities & CoordinatorsMembers of Institution’s Innovation
                   Council of GKV.
-                  <ul className="text media2 hlo2">
+                  <ul className="text media2 hlo2 fst-italic">
                     <li>
                       <strong>President: </strong> Dr. Satyendra K. Rajput, DoPS
                     </li>
@@ -257,7 +258,7 @@ function Page() {
                     <p className="mb-auto d-flex flex-row dc">
                       <div className="container">
                         <ul className="textt  ml-20 d-flex flex-column T1">
-                          <li>Dr. Mayank Aggarwal, FIET</li>
+                          <li>Dr. Mayank Aggarwal, FET</li>
                           <li>Prof. Vivek Kumar, MCA</li>
                           <li>Dr. Chiranjeev Banerjee, Botany</li>
                           <li>Mr. Kapil Dev Sharma, FET</li>
@@ -331,11 +332,11 @@ function Page() {
                       <div className="container">
                         <ul className="text Student-ul textt ">
                           <li>Mr. Chirag Patel (Student Head Co-ordinator)</li>
-                          <li>Mr.Harsh Walia(E-poster / Web Lead)</li>
-                          <li>Mr. Ashish Bibyan(Advertisment Lead) </li>
-                          <li>Mr. Naman Chandra(Hosting /Advertisment)</li>
-                          <li>Mr.Kunal Singh Shekhawat(Consultant Lead)</li>
-                          <li>Mr. Joshi bhavesh praveen(Consultant)</li>
+                          <li>Mr.Harsh Walia (E-poster / Web Lead)</li>
+                          <li>Mr. Ashish Bibyan (Advertisment Lead) </li>
+                          <li>Mr. Naman Chandra (Hosting /Advertisment)</li>
+                          <li>Mr.Kunal Singh Shekhawat (Consultant Lead)</li>
+                          <li>Mr. Joshi bhavesh praveen (Consultant)</li>
                           <li>Mr. Sourabh dubey(Hosting)</li>
                         </ul>
                       </div>
@@ -343,12 +344,13 @@ function Page() {
                         <ul className="text  Student-ul  T2 ml-20 d-flex flex-column">
                           <li>Mr.Himanshu Shekhar(Consultant/Advertise)</li>
 
-                          <li>Mr.Shivam Pant(Advertisment)</li>
-                          <li>Aditya Khandelwal(Video Editing lead)</li>
-                          <li>Mr.Abhinav Ranjan Jha(Hosting/E-Poster lead)</li>
-                          <li>Mr.Rishu Kumar(Consultant)</li>
-                          <li>Mr. Hansal Kothari(Content writer lead)</li>
-                          <li>Mr. Harsh Bokadia(Advertisment)</li>
+                          <li>Mr.Shivam Pant (Advertisment)</li>
+                          <li>Aditya Khandelwal (Video Editing lead)</li>
+                          <li>Mr.Abhinav Ranjan Jha (Hosting/E-Poster lead)</li>
+                          <li>Mr.Rishu Kumar (Consultant)</li>
+                          <li>Mr. Hansal Kothari (Content writer lead)</li>
+                          <li>Mr. Harsh Bokadia (Advertisment)</li>
+                          <li>Mr. Rudra Asis Misra (Content / consultant)</li>
                         </ul>
                       </div>
                     </p>

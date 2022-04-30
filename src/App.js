@@ -5,6 +5,9 @@ import TopMenu from "./TopMenu.js";
 import Carousel from "./Carousel.js";
 import Footer from "./Footer.js";
 import New from "./New";
+import "./Announcement.css";
+import Announcement from "./Announcement";
+import Carousel2 from "./Carousel2";
 // import Navbar from "./Navbar";
 
 // import Sidebar from "./Sidebar";
@@ -28,7 +31,9 @@ function App() {
       {/* Logo
         <Navbar />
       </div> */}
-      <Carousel />
+      {/* <Carousel /> */}
+      <Carousel2 />
+      <Announcement />
       <Page />
       <Footer />
 

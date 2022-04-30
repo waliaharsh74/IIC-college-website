@@ -45,7 +45,7 @@
 }
 
 .media2>li {
-    font-size: 1.25rem !important;
+    font-size: 1.3rem !important;
     list-style: disc;
 }
 
@@ -241,6 +241,15 @@ tbody {
     .textt{
         margin-bottom: 0px;
     }
+
+
+}
+@media (max-width: 1000px) {
+.media2>li {
+    font-size: 0.9rem !important;
+    list-style: disc;
+    font-style: italic;
+}
 
 
 }

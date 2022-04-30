@@ -1,0 +1,27 @@
+.announce{
+    margin-top: 20px ;
+    text-align: left;
+    
+    display: flex;
+    justify-content: start;
+    transform: rotate(90deg)!important;
+    margin-left: -80px;
+    position: fixed; 
+    left: 0;
+    top: 75%;
+    transform: translateY(-50%);
+    transition: all 0.4s linear;
+    font-size: 2px;
+    z-index: 100;
+
+}
+/* .announce>Button>h4{
+    
+    transform: rotate(90deg);
+}
+#btnl{
+    
+} */
+/* .announceHeading{
+    fo
+}  */

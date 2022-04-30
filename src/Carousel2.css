@@ -1,0 +1,9 @@
+.ca1 {
+    height: 450px !important;
+    width: 100% !important;
+    object-fit: cover;
+}
+.ca1>img{
+    height: 450px !important;
+    width: 100% !important;
+    object-fit: cover;}

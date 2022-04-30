@@ -8,6 +8,8 @@ import c3 from "./icons/c3.jpeg";
 import c4 from "./icons/c4.jpeg";
 import c5 from "./icons/c5.jpeg";
 import iiclogo from "./icons/iiclogo.png";
+import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
+import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 // import c from "./icons/c.jpeg";
 function Carousel() {
   return (
@@ -125,6 +127,7 @@ function Carousel() {
           data-bs-target="#carouselExampleCaptions"
           data-bs-slide="prev"
         >
+          <ArrowBackIosIcon className="arrows" />
           <span
             className="carousel-control-prev-icon"
             aria-hidden="true"
@@ -137,6 +140,7 @@ function Carousel() {
           data-bs-target="#carouselExampleCaptions"
           data-bs-slide="next"
         >
+          <ArrowForwardIosIcon className="arrows" />
           <span
             className="carousel-control-next-icon"
             aria-hidden="true"
