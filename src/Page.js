@@ -2,7 +2,7 @@ import React from "react";
 
 import Fade from "react-reveal/Fade";
 import Bounce from "react-reveal/Bounce";
-import GitHubIcon from "@mui/icons-material/GitHub";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import FacebookIcon from "@mui/icons-material/Facebook";
@@ -338,6 +338,12 @@ function Page() {
                           <li>Mr.Kunal Singh Shekhawat (Consultant Lead)</li>
                           <li>Mr. Joshi bhavesh praveen (Consultant)</li>
                           <li>Mr. Sourabh dubey(Hosting)</li>
+                          <li>Sagar Rajput</li>
+                          <li>Rajat saini </li>
+                          <li>Abhishek yadav</li>
+                          <li>Nitish </li>
+                          <li>Dev sharma </li>
+                          <li>Priye himanshu </li>
                         </ul>
                       </div>
                       <div className="container ">
@@ -351,6 +357,10 @@ function Page() {
                           <li>Mr. Hansal Kothari (Content writer lead)</li>
                           <li>Mr. Harsh Bokadia (Advertisment)</li>
                           <li>Mr. Rudra Asis Misra (Content / consultant)</li>
+                          <li>Santosh Rathor</li>
+                          <li>Manu choudhary </li>
+                          <li>Dhiraj tomar </li>
+                          <li>Nitin ghildiyal </li>
                         </ul>
                       </div>
                     </p>
@@ -572,20 +582,31 @@ function Page() {
                     <Fade bottom>
                       <ol className="list-unstyled text d-flex social">
                         <li>
-                          <GitHubIcon className="gicon" />
-                          <a href="#">GitHub</a>
+                          <a
+                            className="gicon"
+                            href="https://in.linkedin.com/company/startup-iic-gkv"
+                          >
+                            <LinkedInIcon />
+                            LinkedIn
+                          </a>
                         </li>
                         <li>
-                          <TwitterIcon className="ticon" />
-                          <a href="#">Twitter</a>
+                          <a href="https://twitter.com/StartupFETGKV">
+                            <TwitterIcon className="ticon" />
+                            Twitter
+                          </a>
                         </li>
                         <li>
-                          <FacebookIcon className="ficon" />
-                          <a href="#">Facebook</a>
+                          <a href="https://m.facebook.com/IIC-GKV-105446938443622/?ref=py_c">
+                            <FacebookIcon className="ficon" />
+                            Facebook
+                          </a>
                         </li>
                         <li>
-                          <InstagramIcon className="instagram" />
-                          <a href="#">Instagram</a>
+                          <a href="https://www.instagram.com/iicgkv/">
+                            <InstagramIcon className="instagram" />
+                            Instagram
+                          </a>
                         </li>
                       </ol>
                     </Fade>

@@ -14,10 +14,10 @@ function New() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <div className="dropdownTag">
+              {/* <div className="dropdownTag">
                 <a href="https://www.gkv.ac.in/">Home</a>
-              </div>
-              <NavDropdown title="" id="basic-nav-dropdown">
+              </div> */}
+              <NavDropdown title="Home" id="basic-nav-dropdown">
                 <div className="sd2">
                   <NavDropdown title="Campuses" id="basic-nav-dropdown">
                     <NavDropdown.Item
@@ -138,11 +138,11 @@ function New() {
               >
                 Departments
               </Nav.Link>
-              <div className="dropdownTag">
-                <a href="https://www.gkv.ac.in/">Student@GKV</a>
-              </div>
+              {/* <div className="dropdownTag">
+                <a href="https://www.gkv.ac.in/"></a>
+              </div> */}
 
-              <NavDropdown title="" id="basic-nav-dropdown">
+              <NavDropdown title="Student@GKV" id="basic-nav-dropdown">
                 <NavDropdown.Item
                   href="https://www.gkv.ac.in/proctorial-board/"
                   id="home"
@@ -325,10 +325,10 @@ function New() {
                   More
                 </NavDropdown.Item>
               </NavDropdown>
-              <div className="dropdownTag">
+              {/* <div className="dropdownTag">
                 <a href="https://www.gkv.ac.in/">Research</a>
-              </div>
-              <NavDropdown title="" id="basic-nav-dropdown">
+              </div> */}
+              <NavDropdown title="Research" id="basic-nav-dropdown">
                 <NavDropdown.Item
                   href="https://www.gkv.ac.in/projects/"
                   id="home"

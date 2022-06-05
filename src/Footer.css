@@ -68,7 +68,9 @@ col-3 {
 @media screen and (min-width: 768px) {.col-md-3 {
     /* flex: 0 0 auto; */
     width: 25%;
+    
 }}
+
 .brdr-left {
     border-left: 2px dotted #7d7d7d !important;
     height: 280px;
